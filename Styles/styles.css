@@ -1,0 +1,11 @@
+body {
+    background-color: bisque;
+    text-align: center;
+    margin: 64px 0 0 0;
+}
+
+canvas {
+    border: solid 8px #fff;
+    background: rgb(238, 174, 202);
+    background: linear-gradient(0deg, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
