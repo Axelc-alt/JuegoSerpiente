@@ -1,9 +1,40 @@
 body {
     background-color: bisque;
-    text-align: center;
-    margin: 64px 0 0 0;
+}
+/* header */
+
+h1{
+    font-family: 'Roboto', sans-serif;
 }
 
+.container__header{
+    position: static;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 75px;
+    background-color: rgb(23, 161, 81);
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+.container-header__Div {
+    grid-column: 2/3;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container-footer__Div {
+    grid-column: 1/2;
+    color: #fff;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.container-footer__Div>p {
+    font-size: 10px;
+    margin: 0;
+    padding: 0;
+    justify-self: start;
+}
 canvas {
     border: solid 8px #fff;
     background: rgb(238, 174, 202);
