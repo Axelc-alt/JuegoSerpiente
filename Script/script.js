@@ -5,7 +5,7 @@ const TICK = 85;
 const SQUARE_SIZE = 10;
 const BOARD_WIDTH = 50;
 const BOARD_HEIGHT = 50;
-const GROW_SCALE = 5;
+const GROW_SCALE = 10;
 const DIRECTIONS_MAP = {
     'A': [-1, 0],
     'D': [1, 0],
